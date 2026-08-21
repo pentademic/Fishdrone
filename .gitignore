@@ -1,0 +1,47 @@
+# ── STM32CubeIDE ──────────────────────────────────────────────────
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.d
+*.o
+*.a
+*.su
+.settings/
+.metadata/
+.launches/
+RemoteSystemsTempFiles/
+
+# ── Arduino build cache ───────────────────────────────────────────
+build/
+*.cache
+
+# ── STM32CubeMX generated (keep .ioc, ignore generated C) ─────────
+# Uncomment the lines below if you do NOT want to track generated code:
+# Core/
+# Drivers/
+# Middlewares/
+# *.c
+# *.h
+
+# ── OS / editor artefacts ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# ── Python (if any scripting / tooling) ───────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# ── Logs ──────────────────────────────────────────────────────────
+*.log
